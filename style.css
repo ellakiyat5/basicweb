@@ -1,0 +1,93 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,200;1,200;1,300&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald&family=Poppins:ital,wght@0,200;1,200;1,300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   
+   
+    font-family: 'Oswald', sans-serif;
+   
+
+}
+.box{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url('./pexels-suzy-hazelwood-1913226.jpg');
+    background-size: cover;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 70px;
+    background-color:rgb(194, 175, 194) ;
+}
+.logo{
+    font-size: 30px;
+    color: black;
+    display: flex;
+   
+}
+.logo span{
+    color:blueviolet;
+     font-family: 'Lobster', sans-serif;
+   
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black ;
+}
+nav ul li a:hover{
+    color: blueviolet;
+    transition: 0.5s;
+
+}
+nav button{
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 15px;
+}
+nav button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.banner-text{
+   
+    color: rgb(194, 175, 194);
+    position: relative;
+    top: 50%;
+    text-align: center;
+    transition: 0.5s;
+}
+.banner-text h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.banner-text span{
+    color: blueviolet;
+    font-family: 'Lobster', sans-serif;
+}
+.banner-text p{
+    font-size: 25px;
+}
